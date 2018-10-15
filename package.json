@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "Move items from azure storage to eventhubs",
     "main": "src/index.js",
-    "author": "aureliano.bergese",
+    "author": "aureliano.bergese@mondora.com",
     "license": "MIT",
     "private": false,
     "dependencies": {
@@ -31,7 +31,6 @@
         "format": "prettier --write 'src/**/*.js'",
         "lint": "eslint src",
         "lint:fix": "eslint src test --fix",
-        "test": "cross-env NODE_PATH=src NODE_ENV=test mocha --require @babel/register --recursive --require babel-polyfill --exit spec",
         "start": "yarn build && node lib/demo/runner"
     }
 }
