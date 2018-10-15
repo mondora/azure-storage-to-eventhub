@@ -2,7 +2,7 @@
     "name": "azure-storage-to-eventhub",
     "version": "0.0.1",
     "description": "Move items from azure storage to eventhubs",
-    "main": "src/index.js",
+    "main": "lib/index.js",
     "author": "aureliano.bergese@mondora.com",
     "license": "MIT",
     "private": false,
@@ -31,6 +31,6 @@
         "format": "prettier --write 'src/**/*.js'",
         "lint": "eslint src",
         "lint:fix": "eslint src test --fix",
-        "start": "yarn build && node lib/demo/runner"
+        "postinstall": "yarn build"
     }
 }
