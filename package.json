@@ -1,6 +1,6 @@
 {
     "name": "azure-storage-to-eventhub",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Move items from azure storage to eventhubs",
     "main": "lib/index.js",
     "author": "aureliano.bergese@mondora.com",
