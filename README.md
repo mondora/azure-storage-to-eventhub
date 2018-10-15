@@ -7,7 +7,7 @@ Move data from azure storage to eventhub.
 ```javascript
 import { storageToEventHubs } from "storageToEventHubs";
 const option = {...};
-const result = storageToEventHubs(option)
+const result = await storageToEventHubs(option)
 ```
 
 ## option
